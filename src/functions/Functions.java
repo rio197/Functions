@@ -16,6 +16,11 @@ public class Functions {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Add(5,10);
+        Add(15,35);
     }
     
+    public static void Add(int x, int y) {
+        System.out.println(x + y);
+    }
 }
